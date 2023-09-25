@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Enrico De Monte",
     "section": "",
-    "text": "Welcome to my personal website!"
+    "text": "Welcome to my personal website!\nI’m researcher at ZEW - Leibniz Center for European Economic Research. My research interests lie in the fields of industrial organisation, applied econometrics, and innovation."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Peer reviewed publications\nNonparametric instrumental regression with two-way fixed effects, 2023, Journal of Econometric Methods.\nProductivity dynamics and exports in the French forest product industry. 2022, Journal of Forest Economics, 37(1), 1-71.\n\n\nWorking papers\nProductivity, markups, and reallocation: Evidence from French manufacturing firms from 1994 to 2016} (R&R to Journal of Productivity Analysis)\nCournot equilibrium and welfare with heterogenous firms (with B. Koebel)\nBusiness dynamism and high-growth firms in Germany (with S. Gottschalk and J. Miranda)\nIs age golden? Growth, innovation, and survival of start-ups by seniorpreneuers} (with S. Gottschalk, H. Hottenrott, S. Murmann, E. Rodepeter)\n\n\nTechnical reports and policy advice\nIndustry and productivity dynamics in Germany}, (with J. Bersch, N. Hahn, and G. Licht, ZEW research project for the Bertelsmann Stiftung, 2021)\nEx-ante analysis of the German start-up subsidy Programm “INVEST”, (with various ZEW researchers and Technopolis Deutschland GmbH, on behalf of the German Federal Ministry of Economic Affairs and Climate Action, 2022)\nThe effect of the German minimum wage on conditions of competition, (with A. Kann, M. Lubczyk, and S. Murmann, on behalf of the German minimum wage commission, 2022)\n\n\nBook chapeters\nDynamisierung der Wirtschaft: Eine Herausforderung für die Industriepolitik Deutsch-Französisches Institut (dfi) Frankreich Jahrbuch 2022 - Politik der Zeitenwende? Europa im Umbruch, Frankreich Jahrbuch, Bd. 36 , Nomos Verlagsgesellschaft 69-88 (with G. Licht)"
+    "text": "Nonparametric instrumental regression with two-way fixed effects, forthcoming, Journal of Econometric Methods.\nProductivity dynamics and exports in the French forest product industry. 2022, Journal of Forest Economics, 37(1), 1-71."
   },
   {
     "objectID": "research.html#peer-reviewed-publications",
@@ -60,6 +60,13 @@
     "href": "CV.html",
     "title": "CV",
     "section": "",
-    "text": "Download heremy CV.\nDownload [here](C:/My_webpage/CV_Enrico_De Monte_Sept_2023.pdf) my CV"
+    "text": "Download here my CV."
+  },
+  {
+    "objectID": "research.html#work-in-progress",
+    "href": "research.html#work-in-progress",
+    "title": "Research",
+    "section": "Work in progress",
+    "text": "Work in progress\nBusiness dynamism and high-growth firms in Germany (with S. Gottschalk and J. Miranda)\nIs age golden? Growth, innovation, and survival of start-ups by seniorpreneuers} (with S. Gottschalk H. Hottenrott, S. Murmann, E. Rodepeter)"
   }
 ]
