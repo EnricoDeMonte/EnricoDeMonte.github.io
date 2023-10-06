@@ -60,6 +60,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -83,11 +85,15 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+ <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./code.html" rel="" target="">
+ <span class="menu-text">Code and Packages</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./project.html" rel="" target="">
@@ -97,8 +103,24 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./CV.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./contact.html" rel="" target="">
+ <span class="menu-text">Contact</span></a>
+  </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/EnricoDeMonte" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://fr.linkedin.com/in/enrico-de-monte-5b7735109" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -113,11 +135,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#peer-reviewed-publications" id="toc-peer-reviewed-publications" class="nav-link active" data-scroll-target="#peer-reviewed-publications">Peer reviewed publications</a></li>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working papers</a>
-  <ul class="collapse">
+  <li><a href="#peer-reviewed-publications" id="toc-peer-reviewed-publications" class="nav-link active" data-scroll-target="#peer-reviewed-publications">Peer-reviewed publications</a></li>
+  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working papers</a></li>
   <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in progress</a></li>
-  </ul></li>
   <li><a href="#policy-advice-and-technical-reports" id="toc-policy-advice-and-technical-reports" class="nav-link" data-scroll-target="#policy-advice-and-technical-reports">Policy advice and technical reports</a></li>
   <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book chapters</a></li>
   </ul>
@@ -144,29 +164,111 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <section id="peer-reviewed-publications" class="level1">
-<h1>Peer reviewed publications</h1>
-<p>Nonparametric instrumental regression with two-way fixed effects, forthcoming, <em>Journal of Econometric Methods</em>.</p>
-<p><a href="www.nowpublishers.com/article/Details/JFE-0540">Productivity dynamics and exports in the French forest product industry</a>. 2022, <em>Journal of Forest Economics</em>, 37(1), 1-71.</p>
+<h1>Peer-reviewed publications</h1>
+<details>
+<summary>
+Show
+</summary>
+<p><a href="https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html">Nonparametric instrumental regression with two-way fixed effects</a>, 2023, <em>Journal of Econometric Methods</em>.</p>
+<details>
+<summary>
+More
+</summary>
+<blockquote class="blockquote">
+<p>This paper presents a novel nonparametric instrumental estimator while controlling for unobserved additive fixed effects. In particular, I consider a model such as</p>
+<p><span class="math display">\[
+Y_{it} = \varphi(Z_{it}) + \xi_{i} + \delta_t + U_{it},
+\]</span></p>
+<p>where <span class="math inline">\(Z_{it}\)</span> is supposed to be correlated with both the unobserved individual and temporal effects, <span class="math inline">\(\xi_i\)</span> and <span class="math inline">\(\delta_t\)</span>, and with the the error term <span class="math inline">\(U_{it}\)</span>. Such settings are typical when estimating market equilibrium models as, for instance, product demand or supply, where <span class="math inline">\(Y_{it}\)</span> and <span class="math inline">\(Z_{it}\)</span> might represent output prices and quantity and <span class="math inline">\(\xi_i\)</span> and <span class="math inline">\(\delta_t\)</span> unit and time specific shocks. To consistently estimate the nonparametric conditional mean function <span class="math inline">\(\varphi\)</span> one has to control for the simultaneity bias, occurring when prices and output quantity are jointly determined, as well as for the unobserved fixed effects. For that purpose, I combine the Landweber-Fridman regularization for the IV-part with a locally-weighted nonparametric fixed effects estimator. A Monte Carlo simulation reveals good finite sample behavior of the novel estimator and confidence intervals are provided by the application of the wild residual block bootstrap.</p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:40%;">
+<blockquote class="blockquote">
+<p>The figure shows the regularized solution path of the nonparametric instrumental estimator while controling for two-way fixed effects. The estimator is applied on simulated data where the conditional mean function <span class="math inline">\(\varphi\)</span> is consistently estimated after 44 iterations, depicted by the green line.</p>
+</blockquote>
+</div><div class="column" style="width:60%;">
+<p><img src="Images/regularized_solution_path.png" class="img-fluid"></p>
+</div>
+</div>
+</details>
+<p><a href="https://www.nowpublishers.com/article/Details/JFE-0540">Productivity dynamics and exports in the French forest product industry</a>. 2022, <em>Journal of Forest Economics</em>, 37(1), 1-71.</p>
+<details>
+<summary>
+More
+</summary>
+<blockquote class="blockquote">
+<p>This paper investigates aggregate productivity dynamics of the French forest product industry based on firm-level data from 1994 to 2016. The main objectives of the paper are to investigate aggregate productivity growth in the industry, while taking market entry and exit into account. Further, aggregate productivity growth is investigated with respect to firms’ export status and with respect to their domestic and export economic activity. Decomposing the productivity growth into the contribution of incumbent, entering, and exiting firms, the results show a considerable slowdown during the economic crisis from 2007 on, which is mainly induced by decreasing productivity improvements and inefficient resource allocation among incumbent firms. Moreover, the study shows that exporters contribute more to aggregate productivity growth than non-exporters. However, investigating the contribution of firms’ domestic and export economic activities on aggregate productivity growth, I find that the aggregate productivity growth is mainly related to firms’ domestic economic activity.</p>
+<p>Download <a href="Documents/WP_Forest Product Industry_2022_De Monte.pdf">here</a> the latest working paper version.</p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img src="Images/Exporter_vs_domestic_TFP.png" class="img-fluid"></p>
+</div><div class="column" style="width:30%;">
+<blockquote class="blockquote">
+<p>The figure shows the empirical cumulative distribution function (ECDF) of exporting and non-exporting firms’ productivity. For all periods exporters of the French forest product industry reveal higher productivity compared to non-exporting firms.</p>
+</blockquote>
+</div>
+</div>
+</details>
+</details>
 </section>
 <section id="working-papers" class="level1">
 <h1>Working papers</h1>
-<p>Productivity, markups, and reallocation: Evidence from French manufacturing firms from 1994 to 2016} (R&amp;R to Journal of Productivity Analysis)</p>
+<details>
+<summary>
+Show
+</summary>
+<p>Productivity, markups, and reallocation: Evidence from French manufacturing firms from 1994 to 2016 (R&amp;R to Journal of Productivity Analysis)</p>
+<details>
+<summary>
+More
+</summary>
+<p>Soon</p>
+</details>
 <p>Cournot equilibrium and welfare with heterogenous firms (with <a href="https://beta-economics.fr/annuaire/54/koebel_bertrand/">B. Koebel</a>)</p>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in progress</h2>
+<details>
+<summary>
+More
+</summary>
+<p>Soon</p>
+</details>
+</details>
+</section>
+<section id="work-in-progress" class="level1">
+<h1>Work in progress</h1>
+<details>
+<summary>
+Show
+</summary>
 <p>Business dynamism and high-growth firms in Germany (with <a href="https://www.zew.de/team/sgo">S. Gottschalk</a> and <a href="https://www.iwh-halle.de/en/about-the-iwh/team/detail/javier-miranda/">J. Miranda</a>)</p>
 <p>Is age golden? Growth, innovation, and survival of start-ups by seniorpreneuers} (with <a href="https://www.zew.de/team/sgo">S. Gottschalk</a> <a href="https://www.zew.de/team/hho">H. Hottenrott</a>, <a href="https://www.zew.de/team/scw">S. Murmann</a>, <a href="https://www.zew.de/team/erp">E. Rodepeter</a>)</p>
-</section>
+</details>
 </section>
 <section id="policy-advice-and-technical-reports" class="level1">
 <h1>Policy advice and technical reports</h1>
-<p>Industry and productivity dynamics in Germany}, (with J. Bersch, <a href="https://www.nadinehahn.com/">N. Hahn</a>, and G. Licht, ZEW research project for the Bertelsmann Stiftung, 2021)</p>
-<p>Ex-ante analysis of the German start-up subsidy Programm “INVEST”, (with various ZEW researchers and Technopolis Deutschland GmbH, on behalf of the German Federal Ministry of Economic Affairs and Climate Action, 2022)</p>
-<p>The effect of the German minimum wage on conditions of competition, (with <a href="https://www.zew.de/team/akn">A. Kann</a>, M. <a href="https://sites.google.com/view/moritzlubczyk/">Lubczyk</a> and <a href="https://www.zew.de/team/scw">S. Murmann</a>, on behalf of the German minimum wage commission, 2022)</p>
+<details>
+<summary>
+Show
+</summary>
+<p><a href="https://www.zew.de/publikationen/ex-ante-analyse-zum-foerderprogramm-invest-zuschuss-fuer-wagniskapital">Ex-ante analysis of the German start-up subsidy Programm “INVEST”</a> (with various ZEW researchers and Technopolis Deutschland GmbH, on behalf of the German Federal Ministry of Economic Affairs and Climate Action, 2022)</p>
+<p><a href="https://www.zew.de/en/press/latest-press-releases/minimum-wage-had-only-little-impact-on-competitive-conditions">The effect of the German minimum wage on conditions of competition</a> (with <a href="https://www.zew.de/team/akn">A. Kann</a>, M. <a href="https://sites.google.com/view/moritzlubczyk/">Lubczyk</a> and <a href="https://www.zew.de/team/scw">S. Murmann</a>, on behalf of the German minimum wage commission, 2022)</p>
+<ul>
+<li>Media coverage: <a href="https://www.tagesschau.de/wirtschaft/unternehmen/mindestlohn-studie-folgen-produktivitaet-zew-bundesregierung-arbeitslosigkeit-jobkiller-101.html">Tagesschau</a>, <a href="https://www.sueddeutsche.de/wirtschaft/arbeitsmarkt-mindestlohn-hat-kaum-negative-folgen-fuer-firmen-dpa.urn-newsml-dpa-com-20090101-220805-99-281869">Süddeutsche Zeitung</a></li>
+</ul>
+<p><a href="https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/industry-and-productivity-dynamics-in-germany-all">Industry and productivity dynamics in Germany</a> (with J. Bersch, <a href="https://www.nadinehahn.com/">N. Hahn</a>, and G. Licht, ZEW research project for the Bertelsmann Stiftung, 2021)</p>
+<ul>
+<li>Media coverage: <a href="https://www.faz.net/aktuell/wirtschaft/studie-lowtech-unternehmen-treiben-die-produktivitaet-17535152.html">Frankfurter Allgemeine Zeitung</a></li>
+</ul>
+</details>
 </section>
 <section id="book-chapters" class="level1">
 <h1>Book chapters</h1>
-<p>Dynamisierung der Wirtschaft: Eine Herausforderung für die Industriepolitik Deutsch-Französisches Institut (dfi) Frankreich Jahrbuch 2022 - Politik der Zeitenwende? Europa im Umbruch, Frankreich Jahrbuch, Bd. 36 , Nomos Verlagsgesellschaft 69-88 (with G. Licht)</p>
+<details>
+<summary>
+Show
+</summary>
+<p>Dynamisierung der Wirtschaft: Eine Herausforderung für die Industriepolitik, Deutsch-Französisches Institut (dfi), Frankreich Jahrbuch 2022 - <a href="https://www.nomos-elibrary.de/10.5771/9783748937142/frankreich-jahrbuch-2022">Politik der Zeitenwende? Europa im Umbruch, Frankreich Jahrbuch, Bd. 36 , Nomos Verlagsgesellschaft 69-88</a> (with G. Licht)</p>
+</details>
 
 
 </section>

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Enrico De Monte",
     "section": "",
-    "text": "Welcome to my personal website!\nI’m researcher at ZEW - Leibniz Center for European Economic Research. My research interests lie in the fields of industrial organisation, applied econometrics, and innovation."
+    "text": "Welcome to my personal website!\n\n\n\n\n\nI’m researcher at ZEW - Leibniz Centre for European Economic Research. My research interests lie in the fields of industrial organisation and applied econometrics.\nTopics I work on comprise productivity growth, competition, market power, business dynamism, and innovation. Understanding the interrelation between these concepts provides insights to the evolution of an economy in terms of technological change and the process of job creation and destruction, which plays an important role for our standard of living. Contributing for designing efficient policies to support the latter is the ultimate purpose of my research."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Nonparametric instrumental regression with two-way fixed effects, forthcoming, Journal of Econometric Methods.\nProductivity dynamics and exports in the French forest product industry. 2022, Journal of Forest Economics, 37(1), 1-71."
+    "text": "Peer-reviewed publications\n\n\nShow\n\nNonparametric instrumental regression with two-way fixed effects, 2023, Journal of Econometric Methods.\n\n\nMore\n\n\nThis paper presents a novel nonparametric instrumental estimator while controlling for unobserved additive fixed effects. In particular, I consider a model such as\n\\[\nY_{it} = \\varphi(Z_{it}) + \\xi_{i} + \\delta_t + U_{it},\n\\]\nwhere \\(Z_{it}\\) is supposed to be correlated with both the unobserved individual and temporal effects, \\(\\xi_i\\) and \\(\\delta_t\\), and with the the error term \\(U_{it}\\). Such settings are typical when estimating market equilibrium models as, for instance, product demand or supply, where \\(Y_{it}\\) and \\(Z_{it}\\) might represent output prices and quantity and \\(\\xi_i\\) and \\(\\delta_t\\) unit and time specific shocks. To consistently estimate the nonparametric conditional mean function \\(\\varphi\\) one has to control for the simultaneity bias, occurring when prices and output quantity are jointly determined, as well as for the unobserved fixed effects. For that purpose, I combine the Landweber-Fridman regularization for the IV-part with a locally-weighted nonparametric fixed effects estimator. A Monte Carlo simulation reveals good finite sample behavior of the novel estimator and confidence intervals are provided by the application of the wild residual block bootstrap.\n\n\n\n\nThe figure shows the regularized solution path of the nonparametric instrumental estimator while controling for two-way fixed effects. The estimator is applied on simulated data where the conditional mean function \\(\\varphi\\) is consistently estimated after 44 iterations, depicted by the green line.\n\n\n\n\n\n\nProductivity dynamics and exports in the French forest product industry. 2022, Journal of Forest Economics, 37(1), 1-71.\n\n\nMore\n\n\nThis paper investigates aggregate productivity dynamics of the French forest product industry based on firm-level data from 1994 to 2016. The main objectives of the paper are to investigate aggregate productivity growth in the industry, while taking market entry and exit into account. Further, aggregate productivity growth is investigated with respect to firms’ export status and with respect to their domestic and export economic activity. Decomposing the productivity growth into the contribution of incumbent, entering, and exiting firms, the results show a considerable slowdown during the economic crisis from 2007 on, which is mainly induced by decreasing productivity improvements and inefficient resource allocation among incumbent firms. Moreover, the study shows that exporters contribute more to aggregate productivity growth than non-exporters. However, investigating the contribution of firms’ domestic and export economic activities on aggregate productivity growth, I find that the aggregate productivity growth is mainly related to firms’ domestic economic activity.\nDownload here the latest working paper version.\n\n\n\n\n\n\nThe figure shows the empirical cumulative distribution function (ECDF) of exporting and non-exporting firms’ productivity. For all periods exporters of the French forest product industry reveal higher productivity compared to non-exporting firms.\n\n\n\n\n\n\n\nWorking papers\n\n\nShow\n\nProductivity, markups, and reallocation: Evidence from French manufacturing firms from 1994 to 2016 (R&R to Journal of Productivity Analysis)\n\n\nMore\n\nSoon\n\nCournot equilibrium and welfare with heterogenous firms (with B. Koebel)\n\n\nMore\n\nSoon\n\n\n\n\nWork in progress\n\n\nShow\n\nBusiness dynamism and high-growth firms in Germany (with S. Gottschalk and J. Miranda)\nIs age golden? Growth, innovation, and survival of start-ups by seniorpreneuers} (with S. Gottschalk H. Hottenrott, S. Murmann, E. Rodepeter)\n\n\n\nPolicy advice and technical reports\n\n\nShow\n\nEx-ante analysis of the German start-up subsidy Programm “INVEST” (with various ZEW researchers and Technopolis Deutschland GmbH, on behalf of the German Federal Ministry of Economic Affairs and Climate Action, 2022)\nThe effect of the German minimum wage on conditions of competition (with A. Kann, M. Lubczyk and S. Murmann, on behalf of the German minimum wage commission, 2022)\n\nMedia coverage: Tagesschau, Süddeutsche Zeitung\n\nIndustry and productivity dynamics in Germany (with J. Bersch, N. Hahn, and G. Licht, ZEW research project for the Bertelsmann Stiftung, 2021)\n\nMedia coverage: Frankfurter Allgemeine Zeitung\n\n\n\n\nBook chapters\n\n\nShow\n\nDynamisierung der Wirtschaft: Eine Herausforderung für die Industriepolitik, Deutsch-Französisches Institut (dfi), Frankreich Jahrbuch 2022 - Politik der Zeitenwende? Europa im Umbruch, Frankreich Jahrbuch, Bd. 36 , Nomos Verlagsgesellschaft 69-88 (with G. Licht)"
   },
   {
     "objectID": "research.html#peer-reviewed-publications",
@@ -53,7 +53,7 @@
     "href": "project.html",
     "title": "Projects",
     "section": "",
-    "text": "High-growth entrepreneurship, innovation, and the transformation of the economy"
+    "text": "Funding and researchers\n\n\nThis project will be realized as a cooperation between IWH - Halle Institute for Economic Research and ZEW - Leibniz Centre for European Economic Research.\nThe project is funded by the Leibniz Association, by obtaining the Leibniz Collaborative Excellence fund as part of the Leibniz Competition, which comprises for both institutes 1 Mio. Euro over three years (2024-2026).\nProject lead/speakers\n\nEnrico De Monte\nJavier Miranda\n\nPrincipal investigators\n\nProf. Dr. Ufuk Akcigit, University of Chicago,\nDr. Andre Diegmann, IWH,\nProf. Dr. Karin Hoisl, University of Mannheim,\nProf. Dr. Hanna Hottenrott, ZEW and Technical University Munich\nProf. Dr. Javier Miranda, IWH and Friedrich-Schiller University Jena\nDr. Enrico De Monte, ZEW\nProf. Dr. Merih Sevilir, IWH and ESMT-Berlin\n\n\n\n\n\nShort summary\n\n\nTransformative innovation is fundamentally disruptive leading to reallocation, productivity growth, and growing standards of living. Entrepreneurial firms are believed to be at the heart of this process by introducing new ideas, products, and services that displace those offered by less innovative firms. This creative-destruction process underlies business dynamism in modern market economies. However, entrepreneurship and business dynamism are in decline in the US and Europe with potentially broad implications for innovation, productivity growth, and well-being. The arising key question is what can be done to achieve sustainable competitiveness. We propose a program to study the conditions, determinants, and implications of innovative high-growth entrepreneurship in Germany. We bring together a leading group of national and international experts in a partnership between IWH and ZEW and develop a rich new data infrastructure to study high-growth entrepreneurship.\nThe work program consists of three work packages (WP). The first one develops the microdata infrastructure necessary to study entrepreneurship and business dynamism in Germany. In particular, we bring together detailed information of firms, establishments, founders, workers, and inventions. The second WP aims to shed light on high-growth firm activity and its relation to innovation. We pay special attention to: i) who creates high-growth firms looking at the role of entrepreneurial traits; and ii) who works at high growth firms looking at the role of workforce skill and shortages. The third WP investigates the role of the competitive environment and the role of acquisitions. The output of this project will be threefold: First, new insights with high relevance for policymakers in Germany and beyond. Second, a new and lasting data infrastructure that will allow high-quality research and policy advice. Third, this project will strengthen the relations and collaboration between the Leibniz institutes IWH and ZEW.\n\n\n\n\n\n\nSeptember, 22nd 2023\nAcceptance of the funding of the research project by the Leibniz Association.\n\n\nMay, 30th 2023\nSubmission of research proposal to the Leibniz Association."
   },
   {
     "objectID": "CV.html",
@@ -68,5 +68,47 @@
     "title": "Research",
     "section": "Work in progress",
     "text": "Work in progress\nBusiness dynamism and high-growth firms in Germany (with S. Gottschalk and J. Miranda)\nIs age golden? Growth, innovation, and survival of start-ups by seniorpreneuers} (with S. Gottschalk H. Hottenrott, S. Murmann, E. Rodepeter)"
+  },
+  {
+    "objectID": "project.html#hallo-1",
+    "href": "project.html#hallo-1",
+    "title": "Projects",
+    "section": "Hallo",
+    "text": "Hallo\n\nkjkjkj"
+  },
+  {
+    "objectID": "project.html#general-information",
+    "href": "project.html#general-information",
+    "title": "Projects",
+    "section": "",
+    "text": "Funding and researchers\n\n\nThis project will be realized as a cooperation between IWH - Halle Institute for Economic Research and ZEW - Leibniz Centre for European Economic Research.\nThe project is funded by the Leibniz Association, by obtaining the Leibniz Collaborative Excellence fund as part of the Leibniz Competition, which comprises for both institutes 1 Mio. Euro over three years (2024-2026).\nProject lead/speakers\n\nEnrico De Monte\nJavier Miranda\n\nPrincipal investigators\n\nProf. Dr. Ufuk Akcigit, University of Chicago,\nDr. Andre Diegmann, IWH,\nProf. Dr. Karin Hoisl, University of Mannheim,\nProf. Dr. Hanna Hottenrott, ZEW and Technical University Munich\nProf. Dr. Javier Miranda, IWH and Friedrich-Schiller University Jena\nDr. Enrico De Monte, ZEW\nProf. Dr. Merih Sevilir, IWH and ESMT-Berlin\n\n\n\n\n\nShort summary\n\n\nTransformative innovation is fundamentally disruptive leading to reallocation, productivity growth, and growing standards of living. Entrepreneurial firms are believed to be at the heart of this process by introducing new ideas, products, and services that displace those offered by less innovative firms. This creative-destruction process underlies business dynamism in modern market economies. However, entrepreneurship and business dynamism are in decline in the US and Europe with potentially broad implications for innovation, productivity growth, and well-being. The arising key question is what can be done to achieve sustainable competitiveness. We propose a program to study the conditions, determinants, and implications of innovative high-growth entrepreneurship in Germany. We bring together a leading group of national and international experts in a partnership between IWH and ZEW and develop a rich new data infrastructure to study high-growth entrepreneurship.\nThe work program consists of three work packages (WP). The first one develops the microdata infrastructure necessary to study entrepreneurship and business dynamism in Germany. In particular, we bring together detailed information of firms, establishments, founders, workers, and inventions. The second WP aims to shed light on high-growth firm activity and its relation to innovation. We pay special attention to: i) who creates high-growth firms looking at the role of entrepreneurial traits; and ii) who works at high growth firms looking at the role of workforce skill and shortages. The third WP investigates the role of the competitive environment and the role of acquisitions. The output of this project will be threefold: First, new insights with high relevance for policymakers in Germany and beyond. Second, a new and lasting data infrastructure that will allow high-quality research and policy advice. Third, this project will strengthen the relations and collaboration between the Leibniz institutes IWH and ZEW."
+  },
+  {
+    "objectID": "project.html#news-blog",
+    "href": "project.html#news-blog",
+    "title": "Projects",
+    "section": "",
+    "text": "September, 22nd 2023\nAcceptance of the funding of the research project by the Leibniz Association.\n\n\nMay, 30th 2023\nSubmission of research proposal to the Leibniz Association."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "E-Mail and phone:\n\nYou can reach me at enrico.demonte [at] zew.de or one the phone +49 621 1235-284.\n\nOffice:\n\nZEW - Leibniz Centre for European Economic Research\nL7,1\nDE-68161 Mannheim\nGermany"
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Code and Packages",
+    "section": "",
+    "text": "Replication notebook: Nonparametric Instrumental Regression with Two-Ways Fixed Effects\nSoon to be updated."
+  },
+  {
+    "objectID": "test.html",
+    "href": "test.html",
+    "title": "test",
+    "section": "",
+    "text": "This extension allows you to use [academicons](https://jpswalsh.github.io/academicons/) in your Quarto HTML documents. It provides an `{{&lt; ai &gt;}}` shortcode:\n- Mandatory `&lt;icon-name&gt;`:\n``` markdown\n{{&lt; ai &lt;\ngoogle-scholar \n&gt; &gt;}}\n```\n- Optional `&lt;size=…&gt;`:\n``` markdown\n{{&lt; ai &lt;\ngoogle-scholar \n&gt; &lt;size=…&gt; &gt;}}\n```\n- Optional `&lt;color=…&gt;`:\n``` markdown\n{{&lt; ai &lt;\ngoogle-scholar \n&gt; &lt;color=…&gt; &gt;}}\n```"
   }
 ]
