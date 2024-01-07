@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2023-11-01/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/metadata/index.html",
+    "items": [
+      "/posts/metadata/posts/post-with-code/index.html",
+      "/posts/metadata/posts/welcome/index.html"
+    ]
+  }
+]
