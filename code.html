@@ -250,7 +250,7 @@ E(U_{it} | Z_{it}) = 0 \hspace{4mm} \text{and} \hspace{4mm} cor(X_{it},Z_{it}) \
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>eps <span class="ot">=</span> <span class="fu">rnorm</span>(NT, <span class="dv">0</span>, sigma.u)</span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>u <span class="ot">=</span> rho.ux<span class="sc">*</span>v1 <span class="sc">+</span> eps </span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Individual effects</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Individual fixed effects</span></span>
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>xi_i <span class="ot">=</span> <span class="fu">runif</span>(N, <span class="dv">0</span>, <span class="fl">1.5</span>)</span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>xi_i <span class="ot">=</span> <span class="fu">as.matrix</span>( xi_i <span class="sc">%x%</span> iota_T )</span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
