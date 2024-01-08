@@ -213,8 +213,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="model-description" class="level2">
 <h2 class="anchored" data-anchor-id="model-description">Model description</h2>
 <p>Below we generate data of the two-way fixed effects panel model, given by <span class="math display">\[ Y_{it} = \varphi(X_{it}) + \xi_i + \delta_t + U_{it},\]</span> where <span class="math inline">\(X_{it}\)</span> denotes the endogenous dependent variable that is correlated with both the unobserved individual and temporal fixed effects, <span class="math inline">\(\xi_i\)</span> and <span class="math inline">\(\delta_t\)</span>, and with the error term <span class="math inline">\(U_{it}\)</span>. Further, we generate a valid instrument <span class="math inline">\(Z_{it}\)</span>, satisfying <span class="math display">\[
-E(U_{it} | Z_{it}) = 0 \hspace{4mm} \text{and} \hspace{4mm} cor(X_{it},Z_{it}) \neq 0  
-\]</span> Note that to stay consistent with the variable convention used in the code, the notation used here change slightly w.r.t. the one presented in paper. More precisely, while in the paper <span class="math inline">\(Z_{it}\)</span> and <span class="math inline">\(W_{it}\)</span> denote the explanatory and the instrumental variable, in the code these variables refer to <code>x</code> and <code>z</code>, respectively.</p>
+E(U_{it} | Z_{it}) = 0 \hspace{4mm} \text{and} \hspace{4mm} cor(X_{it},Z_{it}) \neq 0.  
+\]</span> Note that to stay consistent with the variable convention used in the code, the notation used here changes slightly w.r.t. the one presented in paper. More precisely, while in the paper <span class="math inline">\(Z_{it}\)</span> and <span class="math inline">\(W_{it}\)</span> denote the explanatory and the instrumental variable, in the code these variables refer to <code>x</code> and <code>z</code>, respectively.</p>
 </section>
 <section id="data-generating-process" class="level2">
 <h2 class="anchored" data-anchor-id="data-generating-process">Data generating process</h2>
