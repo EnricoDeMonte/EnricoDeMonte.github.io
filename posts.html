@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Enrico De Monte - Research</title>
+<title>Enrico De Monte - My Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,6 +61,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -88,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -131,24 +162,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#peer-reviewed-publications" id="toc-peer-reviewed-publications" class="nav-link active" data-scroll-target="#peer-reviewed-publications">Peer-reviewed publications</a></li>
-  <li><a href="#working-papers" id="toc-working-papers" class="nav-link" data-scroll-target="#working-papers">Working papers</a></li>
-  <li><a href="#work-in-progress" id="toc-work-in-progress" class="nav-link" data-scroll-target="#work-in-progress">Work in progress</a></li>
-  <li><a href="#policy-advice-and-technical-reports" id="toc-policy-advice-and-technical-reports" class="nav-link" data-scroll-target="#policy-advice-and-technical-reports">Policy advice and technical reports</a></li>
-  <li><a href="#book-chapters" id="toc-book-chapters" class="nav-link" data-scroll-target="#book-chapters">Book chapters</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">My Blog</h1>
 </div>
 
 
@@ -163,118 +184,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="peer-reviewed-publications" class="level1">
-<h1>Peer-reviewed publications</h1>
-<p><a href="https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html">Nonparametric instrumental regression with two-way fixed effects</a>, 2023, <em>Journal of Econometric Methods</em>. [<a href="https://enricodemonte.github.io/code.html">Code</a>]</p>
-<details>
-<summary>
-More
-</summary>
-<blockquote class="blockquote">
-<p>This paper presents a novel nonparametric instrumental estimator while controlling for unobserved additive fixed effects. In particular, I consider a model such as</p>
-<p><span class="math display">\[
-Y_{it} = \varphi(Z_{it}) + \xi_{i} + \delta_t + U_{it},
-\]</span></p>
-<p>where <span class="math inline">\(Z_{it}\)</span> is supposed to be correlated with both the unobserved individual and temporal effects, <span class="math inline">\(\xi_i\)</span> and <span class="math inline">\(\delta_t\)</span>, and with the the error term <span class="math inline">\(U_{it}\)</span>. Such settings are typical when estimating market equilibrium models as, for instance, product demand or supply, where <span class="math inline">\(Y_{it}\)</span> and <span class="math inline">\(Z_{it}\)</span> might represent output prices and quantity and <span class="math inline">\(\xi_i\)</span> and <span class="math inline">\(\delta_t\)</span> unit and time specific shocks. To consistently estimate the nonparametric conditional mean function <span class="math inline">\(\varphi\)</span> one has to control for the simultaneity bias, occurring when prices and output quantity are jointly determined, as well as for the unobserved fixed effects. For that purpose, I combine the Landweber-Fridman regularization for the IV-part with a locally-weighted nonparametric fixed effects estimator. A Monte Carlo simulation reveals good finite sample behavior of the novel estimator and confidence intervals are provided by the application of the wild residual block bootstrap.</p>
-</blockquote>
-<div class="columns">
-<div class="column" style="width:40%;">
-<blockquote class="blockquote">
-<p>The figure shows the regularized solution path of the nonparametric instrumental estimator while controling for two-way fixed effects. The estimator is applied on simulated data where the conditional mean function <span class="math inline">\(\varphi\)</span> is consistently estimated after 44 iterations, depicted by the green line.</p>
-</blockquote>
-</div><div class="column" style="width:60%;">
-<p><img src="Images/regularized_solution_path.PNG" class="img-fluid"></p>
-</div>
-</div>
-</details>
-<p><a href="https://www.nowpublishers.com/article/Details/JFE-0540">Productivity dynamics and exports in the French forest product industry</a>. 2022, <em>Journal of Forest Economics</em>, 37(1), 1-71. [<a href="Documents/WP_Forest Product Industry_2022_De Monte.pdf">Working paper version</a>]</p>
-<details>
-<summary>
-More
-</summary>
-<blockquote class="blockquote">
-<p>This paper investigates aggregate productivity dynamics of the French forest product industry based on firm-level data from 1994 to 2016. The main objectives of the paper are to investigate aggregate productivity growth in the industry, while taking market entry and exit into account. Further, aggregate productivity growth is investigated with respect to firms’ export status and with respect to their domestic and export economic activity. Decomposing the productivity growth into the contribution of incumbent, entering, and exiting firms, the results show a considerable slowdown during the economic crisis from 2007 on, which is mainly induced by decreasing productivity improvements and inefficient resource allocation among incumbent firms. Moreover, the study shows that exporters contribute more to aggregate productivity growth than non-exporters. However, investigating the contribution of firms’ domestic and export economic activities on aggregate productivity growth, I find that the aggregate productivity growth is mainly related to firms’ domestic economic activity.</p>
-</blockquote>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><img src="Images/Exporter_vs_domestic_TFP.png" class="img-fluid"></p>
-</div><div class="column" style="width:30%;">
-<blockquote class="blockquote">
-<p>The figure shows the empirical cumulative distribution function (ECDF) of exporting and non-exporting firms’ productivity. For all periods exporters of the French forest product industry reveal higher productivity compared to non-exporting firms.</p>
-</blockquote>
-</div>
-</div>
-</details>
-</section>
-<section id="working-papers" class="level1">
-<h1>Working papers</h1>
-<p><a href="Documents/WP_Productivity, markups, and reallocation.pdf">Productivity, markups, and reallocation: Evidence from French manufacturing firms</a> (submitted to Journal of Industrial Economics)</p>
-<details>
-<summary>
-More
-</summary>
-<blockquote class="blockquote">
-<p>This paper investigates the evolution of aggregate productivity and markups among French manufacturing firms between 1994 and 2016, by focusing on the role of reallocation with respect to both aggregate measures. Firm-level productivity and markups are estimated based on a gross output translog production function using popular estimation methods.</p>
-</blockquote>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img src="Images/Productivity_markup_evolution.png" class="img-fluid"></p>
-</div><div class="column" style="width:50%;">
-<blockquote class="blockquote">
-<p>As the figures show, I find an aggregate productivity growth of about 34% over the whole period while aggregate markups are found to remain relatively stable (see the solid lines in both figures). As a key finding the study further shows that over time reallocation of sales shares affects differently aggregate productivity and markups (long-dashed line): Before 2000 both aggregate productivity and markups are importantly driven by reallocation effects; Post-2000, instead, the contribution of reallocation to aggregate productivity becomes negligible, inducing a slowdown in aggregate productivity growth, while I measure persistent reallocation of sales shares from lower to higher markup firms. Policy relevant implications of these dynamics are discussed.</p>
-</blockquote>
-</div>
-</div>
-</details>
-<p><a href="Documents/WP_Cournot competition with heterogenous firms, welfare and misallocation.pdf">Cournot competition with heterogenous firms, welfare and misallocation</a> (with <a href="https://beta-economics.fr/annuaire/54/koebel_bertrand/">B. Koebel</a>)</p>
-<details>
-<summary>
-More
-</summary>
-<blockquote class="blockquote">
-<p>This paper characterizes the short- and long-run Cournot equilibrium with heterogeneous firms and stochastic technological change. In our model, firms have different technologies with heterogeneous fixed and variable costs and various degrees of markups. In a framework with homogeneous firms, Mankiw and Whinston (1986) show that the long-run Cournot equilibrium may be inefficient due to too many entries. We extend their result to the case of heterogeneous firms and show that higher industrial concentration of production is welfare improving. Using administrative data for French manufacturing firms, we estimate a wide degree of unobserved heterogeneity in both fixed and variable costs. Our simulation exercise shows that markups surprisingly only induce slight inefficiencies in the allocation of output, implying that it is almost compatible with welfare maximisation. Instead, firms’ choice to employ heterogeneous and often inefficient technologies turns out to harm substantially welfare and aggregate output. ::: columns ::: {.column width=“40%”} A simpliefied version of the cost function employed in our model is given by</p>
-<p><span class="math display">\[
-c_n = \textcolor{red}{\gamma^u_n} u(w) + \textcolor{red}{\gamma^v_n} v(w) y_n + \epsilon_n,   
-\]</span></p>
-<p>where <span class="math inline">\(c_n\)</span> denotes total costs of a firm <span class="math inline">\(n\)</span>, <span class="math inline">\(\textcolor{red}{\gamma^u_n}\)</span> and <span class="math inline">\(\textcolor{red}{\gamma^v_n}\)</span> denote unobserved cost efficiency parameters associated with the fixed and variable cost component, denoted by <span class="math inline">\(u(w)\)</span> and <span class="math inline">\(v(w)\)</span>, respectively. <span class="math inline">\(w\)</span> represents a vector of input prices and <span class="math inline">\(y_n\)</span> a firm n’s production level.</p>
-<p>One important contribution of the paper is a method allowing us to estimate the endogenous cost efficiency parameters of both fixed and variables costs. The figure on the right shows the kernel density estimates of the distribution of <span class="math inline">\(\textcolor{red}{\widehat{\gamma}^u_n}\)</span> (upper plot) and <span class="math inline">\(\textcolor{red}{\widehat{\gamma}^v_n}\)</span> (lower plot). Both densities are single peaked, and show that there is a high probability mass around <span class="math inline">\(\gamma^u=0\)</span> and around <span class="math inline">\(\gamma^v=1\)</span>.</p>
-<p>Further results presented in the paper show that fixed and variable costs are inversaly related: larger firms have higher fixed costs and lower marginal costs.</p>
-</blockquote>
-<div class="column" style="width:60%;">
-<p><img src="Images/Fig_dens_gam_u.PNG" class="img-fluid"> <img src="Images/Fig_dens_gam_v.PNG" class="img-fluid"></p>
-</div>
-<blockquote class="blockquote">
-<p>We then use parameter estimates of the empirical cost and demand function to simulate under which conditions welfare is maximized both in the short- and in the long-run.</p>
-</blockquote>
-</details></section>
-<section id="work-in-progress" class="level1">
-<h1>Work in progress</h1>
-<p>Business dynamism and high-growth firms in Germany (with <a href="https://www.zew.de/team/sgo">S. Gottschalk</a>, <a href="https://www.iwh-halle.de/en/about-the-iwh/team/detail/javier-miranda/">J. Miranda</a>, and <a href="https://www.zew.de/team/scw">S. Murmann</a>)</p>
-<p>Nonparametric shape constrained estimation of panel data models with endogenous variables</p>
-
-</section>
-<section id="policy-advice-and-technical-reports" class="level1">
-<h1>Policy advice and technical reports</h1>
-<p><a href="https://www.e-fi.de/fileadmin/Assets/Studien/2024/StuDIS_02_2024.pdf">Unternehmensdynamik in der Wissenswirtschaft in Deutschland 2022</a> - Studien zum deutschen Innovationssystem, on behalf of the German Commission of Ex- perts for Research and Innovation -EFI, 2023 (with <a href="https://www.zew.de/team/scw">S. Murmann</a>).</p>
-<p><a href="https://www.zew.de/publikationen/ex-ante-analyse-zum-foerderprogramm-invest-zuschuss-fuer-wagniskapital">Ex-ante analysis of the German start-up subsidy Programm “INVEST”</a> (with various ZEW researchers and Technopolis Deutschland GmbH, on behalf of the German Federal Ministry of Economic Affairs and Climate Action, 2022)</p>
-<p><a href="https://www.zew.de/en/press/latest-press-releases/minimum-wage-had-only-little-impact-on-competitive-conditions">The effect of the German minimum wage on conditions of competition</a> (with <a href="https://www.zew.de/team/akn">A. Kann</a>, M. <a href="https://sites.google.com/view/moritzlubczyk/">Lubczyk</a> and <a href="https://www.zew.de/team/scw">S. Murmann</a>, on behalf of the German minimum wage commission, 2022)</p>
-<ul>
-<li>Media coverage: <a href="https://www.tagesschau.de/wirtschaft/unternehmen/mindestlohn-studie-folgen-produktivitaet-zew-bundesregierung-arbeitslosigkeit-jobkiller-101.html">Tagesschau</a>, <a href="https://www.sueddeutsche.de/wirtschaft/arbeitsmarkt-mindestlohn-hat-kaum-negative-folgen-fuer-firmen-dpa.urn-newsml-dpa-com-20090101-220805-99-281869">Süddeutsche Zeitung</a></li>
-</ul>
-<p><a href="https://www.bertelsmann-stiftung.de/de/publikationen/publikation/did/industry-and-productivity-dynamics-in-germany-all">Industry and productivity dynamics in Germany</a> (with J. Bersch, <a href="https://www.nadinehahn.com/">N. Hahn</a>, and G. Licht, ZEW research project for the Bertelsmann Stiftung, 2021)</p>
-<ul>
-<li>Media coverage: <a href="https://www.faz.net/aktuell/wirtschaft/studie-lowtech-unternehmen-treiben-die-produktivitaet-17535152.html">Frankfurter Allgemeine Zeitung</a></li>
-</ul>
-</section>
-<section id="book-chapters" class="level1">
-<h1>Book chapters</h1>
-<p>Unternehmen als Gestalter der Transformation. Aus Zuversicht Wirklichkeit machen: Gedanken zum Zusammenhalt in Zeiten des Umbruchs, 2024, Kretschmann, Winfried (Ed.), Chapter 4, 197-206, Herder, Freiburg. (with <a href="https://www.zew.de/en/team/hho">H. Hottenrott</a>)</p>
-<p>Dynamisierung der Wirtschaft: Eine Herausforderung für die Industriepolitik, Deutsch-Französisches Institut (dfi), Frankreich Jahrbuch 2022 - <a href="https://www.nomos-elibrary.de/10.5771/9783748937142/frankreich-jahrbuch-2022">Politik der Zeitenwende? Europa im Umbruch, Frankreich Jahrbuch, Bd. 36 , Nomos Verlagsgesellschaft 69-88</a> (with G. Licht)</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="news" data-listing-date-sort="1698793200000" data-listing-file-modified-sort="1698875165637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<a href="./posts/2023-11-01/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="posts\2023-11-01\campito_1.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Efficiency - What is it all about?
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+</div>
+<div class="card-text listing-description">
+Efficiency is relative, which means that if a company A compared to company B needs less production inputs, such as work force, financial resources, or energy, to produce a…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Enrico De Monte
+</div>
+<div class="listing-date">
+Nov 1, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
