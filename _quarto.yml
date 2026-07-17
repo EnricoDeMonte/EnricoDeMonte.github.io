@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Enrico De Monte"
+  page-navigation: true
+  page-footer: 
+   left: "Copyright 2026 - Enrico De Monte"    
+  navbar:
+    left:
+      - href: index.qmd
+        text: About me
+      - research.qmd
+      - code.qmd
+      - project.qmd
+      - CV.qmd
+      - contact.qmd
+      - posts.qmd
+    right:
+      - icon: github
+        href: https://github.com/EnricoDeMonte
+        aria-label: GitHub
+      - icon: linkedin 
+        href: https://fr.linkedin.com/in/enrico-de-monte-5b7735109
+  
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-in-header: head.html 
+ 
+  
+editor: visual
+
