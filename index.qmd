@@ -1,0 +1,39 @@
+---
+title: "About me"
+---
+
+
+::: columns
+::: {.column width="40%"}
+![](Images/edm.jpg)
+:::
+
+::: {.column width="60%"}
+> I am researcher at [ZEW - Leibniz Centre for European Economic Research](https://www.zew.de/en/). My research interests lie in the fields of [industrial organisation](https://en.wikipedia.org/wiki/Industrial_organization) and applied [econometrics](https://en.wikipedia.org/wiki/Econometrics).
+>
+> My work focuses on **productivity growth**, **competition**, **market power**, **business dynamism**, and **innovation**. Understanding the relationships among these concepts provides valuable insights into the evolution of an economy, particularly with respect to technological change and the process of job creation and destruction, both of which play a cruscial role in shaping our standard of living. Ultimately, my research aims to contribute to the design of effective policies that support economic prosperity, innovation, and job growth. 
+:::
+:::
+
+## News Blog
+
+> **June 5th, 2026.** New publication: [Productivity, markups, and reallocation: Evidence from French manufacturing firms](https://link.springer.com/article/10.1007/s00181-026-02929-y), 2026, *Empirical Economics* 70(6), 88.
+
+> **June 3rd, 2026.** Working paper update: [Imperfect competition with heterogenous firms, welfare and misallocation](Documents/De Monte_Koebel_2026.pdf) (with [B. Koebel](https://beta-economics.fr/annuaire/54/koebel_bertrand/))
+
+> **October, 14th 2024.** New working paper online: [Cournot competition with heterogenous firms, welfare and misallocation](Documents/WP_Cournot competition with heterogenous firms, welfare and misallocation.pdf) (with [B. Koebel](https://beta-economics.fr/annuaire/54/koebel_bertrand/))
+
+> **September -- November 2024.** Research stay at [Universitat Pompeu Fabra, Barcelona](https://www.upf.edu/). 
+
+> **January 24th, 2024.**
+> My paper [Productivity, markups, and reallocation: Evidence from French manufacturing firms from 1994 to 2016](https://www.zew.de/en/publications/productivity-markups-and-reallocation-evidence-from-french-manufacturing-firms-from-1994-to-2016-1) is now available as ZEW Discussion Paper.
+
+> **January 8th, 2024.**
+> Replication notebook available [here](https://enricodemonte.github.io/code.html) for [Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html), *Journal of Econometric Methods*.
+
+> **October 5th, 2023.**
+> Publication of my paper [Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html) in the *Journal of Econometric Methods*.
+
+> **September 22nd, 2023.**
+> Winning the Leibniz Collaborative Excellence Fund for the 3-year research project "High Growth Entrepreneurship, Innovation, and the Transformation of the Economy". See more [here](https://enricodemonte.github.io/project.html).
+
