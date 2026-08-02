@@ -16,6 +16,7 @@ website:
       - project.qmd
       - CV.qmd
       - contact.qmd
+      - posts.qmd
     right:
       - icon: github
         href: https://github.com/EnricoDeMonte
