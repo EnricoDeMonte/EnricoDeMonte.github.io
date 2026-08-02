@@ -2,18 +2,12 @@
 title: "About me"
 ---
 
+![](Images/edm.jpg){width=50%}
 
-::: columns
-::: {.column width="40%"}
-![](Images/edm.jpg)
-:::
+I am researcher at [ZEW - Leibniz Centre for European Economic Research](https://www.zew.de/en/). My research interests lie in the fields of [industrial organisation](https://en.wikipedia.org/wiki/Industrial_organization) and applied [econometrics](https://en.wikipedia.org/wiki/Econometrics).
 
-::: {.column width="60%"}
-> I am researcher at [ZEW - Leibniz Centre for European Economic Research](https://www.zew.de/en/). My research interests lie in the fields of [industrial organisation](https://en.wikipedia.org/wiki/Industrial_organization) and applied [econometrics](https://en.wikipedia.org/wiki/Econometrics).
->
-> My work focuses on **productivity growth**, **competition**, **market power**, **business dynamism**, and **innovation**. Understanding the relationships among these concepts provides valuable insights into the evolution of an economy, particularly with respect to technological change and the process of job creation and destruction, both of which play a cruscial role in shaping our standard of living. Ultimately, my research aims to contribute to the design of effective policies that support economic prosperity, innovation, and job growth. 
-:::
-:::
+My work focuses on **productivity growth**, **competition**, **market power**, **business dynamism**, and **innovation**. Understanding the relationships among these concepts provides valuable insights into the evolution of an economy, particularly with respect to technological change and the process of job creation and destruction, both of which play a crucial role in shaping our standard of living. Ultimately, my research aims to contribute to the design of effective policies that support economic prosperity, innovation, and job growth. 
+
 
 ## News Blog
 
