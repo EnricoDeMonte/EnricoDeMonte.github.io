@@ -1,1 +1,7 @@
 /* css styles */
+
+.quarto-figure figcaption {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}

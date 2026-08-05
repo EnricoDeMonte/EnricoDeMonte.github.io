@@ -53,7 +53,7 @@ title: "Projects"
 >**September, 25th 2024.**
 > Kick-off workshop at ZEW in Mannheim. About 20 researchers from ZEW, IWH, and IAB came together to officially kick off our project. While this was the first meeting in person, a lot of work in terms of building a new data infrastructure has already been done. The workshop allowed us to discuss the progress of the project as well as future objectives. Mark Roberts, as a scientific advisor of the project, shared his valuable views and suggestions with us to improve our work on the data towards the related research. Soon more!  
 >
->![](Images/research_group_ZEW_IWH_IAB.JPG)
+>![](Images/research_group_ZEW_IWH_IAB.jpg)
 > Thorsten Doherr, Leon Steines, Lena Füner, Sandra Gottschalk, Martin Friedrich, André Diegmann, Alexander Reifschneider, Lion Holste, Jakob Ehlich,  Eline Schoonjans, Mark Roberts, Bettina Peters, Simona Murmann, Hanna Hottenrott, Afroza Alam, Enrico De Monte, Jiamin Wang, and Javier Miranda. (Not all team members are on the picture). 
 
 >**June, 1st 2024.**

@@ -188,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="Hafenofen_2.jpg" class="img-fluid"></p>
-<p>Etwa 150 Kilometer südlich von Rom liegt das malerische Küstenstädtchen Gaeta, das man von Italiens Hauptstadt mit dem Regionalzug in Richtung Neapel erreicht. Der Ort ist heute vom Tourismus geprägt. Viele Einheimische kommen aus den nahegelegenen Großstädten Rom und Neapel, die noch vor den internationalen Touristen den größten Teil ausmachen. Wenn man das Städtchen bereist, wird jedoch schnell klar, dass Gaeta noch eine andere Geschichte zu erzählen vermag — jene eines längst vergangenen industriellen Zeitalters.</p>
+<p>Etwa 150 Kilometer südlich von Rom liegt das malerische Küstenstädtchen Gaeta, das man von Italiens Hauptstadt mit dem Regionalzug in Richtung Neapel erreicht. Der Ort ist heute vom Tourismus geprägt. Viele Einheimische kommen aus den nahegelegenen Großstädten, die noch vor den internationalen Touristen den größten Teil ausmachen. Wenn man das Städtchen bereist, wird jedoch schnell klar, dass Gaeta noch eine andere Geschichte zu erzählen vermag — jene eines längst vergangenen industriellen Zeitalters.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Gaeta_maps.png" class="img-fluid figure-img"></p>
@@ -251,6 +251,25 @@ Es scheint somit ganz so, als ob die Summe all dieser Aspekte für den erfolgrei
 <li id="fn2"><p>ASSOVETRO. <em>Una storia di vetro — I 75 anni dell’Associazione Nazionale degli Industriali del Vetro 1947–2022</em>. A cura di Federica Cingolani, 2022.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
+<script>
+function alignFigureCaptions() {
+  document.querySelectorAll('.quarto-figure').forEach(function (fig) {
+    var img = fig.querySelector('img');
+    var caption = fig.querySelector('figcaption');
+    if (img && caption) {
+      caption.style.width = img.getBoundingClientRect().width + 'px';
+    }
+  });
+}
+
+window.addEventListener('load', alignFigureCaptions);
+
+var resizeTimer;
+window.addEventListener('resize', function () {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(alignFigureCaptions, 150);
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -324,7 +343,7 @@ Es scheint somit ganz so, als ob die Summe all dieser Aspekte für den erfolgrei
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/enricodemonte\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Enrico De Monte"
+  site-url: "https://enricodemonte.github.io/"
   page-navigation: true
   page-footer: 
    left: "Copyright 2026 - Enrico De Monte"    
@@ -29,7 +30,8 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-    include-in-header: head.html 
+    include-in-header: head.html
+    include-after-body: align-captions.html
  
   
 editor: visual

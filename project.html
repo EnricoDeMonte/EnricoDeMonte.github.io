@@ -221,7 +221,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="news-blog">News Blog</h2>
 <blockquote class="blockquote">
 <p><strong>September, 25th 2024.</strong> Kick-off workshop at ZEW in Mannheim. About 20 researchers from ZEW, IWH, and IAB came together to officially kick off our project. While this was the first meeting in person, a lot of work in terms of building a new data infrastructure has already been done. The workshop allowed us to discuss the progress of the project as well as future objectives. Mark Roberts, as a scientific advisor of the project, shared his valuable views and suggestions with us to improve our work on the data towards the related research. Soon more!</p>
-<p><img src="Images/research_group_ZEW_IWH_IAB.JPG" class="img-fluid"> Thorsten Doherr, Leon Steines, Lena Füner, Sandra Gottschalk, Martin Friedrich, André Diegmann, Alexander Reifschneider, Lion Holste, Jakob Ehlich, Eline Schoonjans, Mark Roberts, Bettina Peters, Simona Murmann, Hanna Hottenrott, Afroza Alam, Enrico De Monte, Jiamin Wang, and Javier Miranda. (Not all team members are on the picture).</p>
+<p><img src="Images/research_group_ZEW_IWH_IAB.jpg" class="img-fluid"> Thorsten Doherr, Leon Steines, Lena Füner, Sandra Gottschalk, Martin Friedrich, André Diegmann, Alexander Reifschneider, Lion Holste, Jakob Ehlich, Eline Schoonjans, Mark Roberts, Bettina Peters, Simona Murmann, Hanna Hottenrott, Afroza Alam, Enrico De Monte, Jiamin Wang, and Javier Miranda. (Not all team members are on the picture).</p>
 </blockquote>
 <blockquote class="blockquote">
 <p><strong>June, 1st 2024.</strong> Official start of the project.</p>
@@ -238,6 +238,25 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+function alignFigureCaptions() {
+  document.querySelectorAll('.quarto-figure').forEach(function (fig) {
+    var img = fig.querySelector('img');
+    var caption = fig.querySelector('figcaption');
+    if (img && caption) {
+      caption.style.width = img.getBoundingClientRect().width + 'px';
+    }
+  });
+}
+
+window.addEventListener('load', alignFigureCaptions);
+
+var resizeTimer;
+window.addEventListener('resize', function () {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(alignFigureCaptions, 150);
+});
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -311,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/enricodemonte\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

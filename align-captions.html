@@ -1,0 +1,19 @@
+<script>
+function alignFigureCaptions() {
+  document.querySelectorAll('.quarto-figure').forEach(function (fig) {
+    var img = fig.querySelector('img');
+    var caption = fig.querySelector('figcaption');
+    if (img && caption) {
+      caption.style.width = img.getBoundingClientRect().width + 'px';
+    }
+  });
+}
+
+window.addEventListener('load', alignFigureCaptions);
+
+var resizeTimer;
+window.addEventListener('resize', function () {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(alignFigureCaptions, 150);
+});
+</script>
