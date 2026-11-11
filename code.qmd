@@ -1,10 +1,12 @@
 ---
 title: "Code and Packages"
+open-graph:
+  description: "R package and replication notebook for nonparametric instrumental regression with two-way fixed effects."
 ---
 
 # Replication notebook for
 
-[Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html), 2023, *Journal of Econometric Methods*. 
+[Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html), 2024, *Journal of Econometric Methods*. 
 
 ## Package download  
 
@@ -15,7 +17,7 @@ Download the file [npivfe](Code_npivfe/npivfe.zip) containing an `R` file with a
 Below we generate data of the two-way fixed effects panel model, given
 by 
 $$ Y_{it} = \varphi(X_{it}) + \xi_i + \delta_t + U_{it},$$ 
-where $X_{it}$ denotes the endogenous dependent variable that is correlated with both the unobserved individual and temporal fixed effects, $\xi_i$ and $\delta_t$, and with the error term $U_{it}$. Further, we generate a valid instrument $Z_{it}$, satisfying 
+where $X_{it}$ denotes the endogenous explanatory variable that is correlated with both the unobserved individual and temporal fixed effects, $\xi_i$ and $\delta_t$, and with the error term $U_{it}$. Further, we generate a valid instrument $Z_{it}$, satisfying 
 $$
 E(U_{it} | Z_{it}) = 0 \hspace{4mm} \text{and} \hspace{4mm} cor(X_{it},Z_{it}) \neq 0.  
 $$ 

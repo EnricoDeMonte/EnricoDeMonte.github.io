@@ -5,6 +5,9 @@ project:
 website:
   title: "Enrico De Monte"
   site-url: "https://enricodemonte.github.io/"
+  description: "Enrico De Monte, researcher at ZEW Mannheim: productivity, competition, market power, business dynamism, and innovation."
+  image: Images/edm.jpg
+  open-graph: true
   page-navigation: true
   page-footer: 
    left: "Copyright 2026 - Enrico De Monte"    
@@ -22,8 +25,12 @@ website:
       - icon: github
         href: https://github.com/EnricoDeMonte
         aria-label: GitHub
-      - icon: linkedin 
+      - icon: linkedin
         href: https://fr.linkedin.com/in/enrico-de-monte-5b7735109
+        aria-label: LinkedIn
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=99YLCssAAAAJ
+        aria-label: Google Scholar
   
 format:
   html:

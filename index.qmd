@@ -1,33 +1,50 @@
 ---
 title: "About me"
+open-graph:
+  description: "Enrico De Monte, researcher at ZEW Mannheim working on productivity, competition, market power, business dynamism, and innovation."
 ---
 
-![](Images/edm.jpg){width=50%}
+![](Images/edm.jpg){width=50% fig-alt="Portrait of Enrico De Monte"}
 
-I am researcher at [ZEW - Leibniz Centre for European Economic Research](https://www.zew.de/en/). My research interests lie in the fields of [industrial organisation](https://en.wikipedia.org/wiki/Industrial_organization) and applied [econometrics](https://en.wikipedia.org/wiki/Econometrics).
+I am a researcher at [ZEW – Leibniz Centre for European Economic Research](https://www.zew.de/en/). My research interests lie in the fields of [industrial organisation](https://en.wikipedia.org/wiki/Industrial_organization) and applied [econometrics](https://en.wikipedia.org/wiki/Econometrics).
 
 My work focuses on **productivity growth**, **competition**, **market power**, **business dynamism**, and **innovation**. Understanding the relationships among these concepts provides valuable insights into the evolution of an economy, particularly with respect to technological change and the process of job creation and destruction, both of which play a crucial role in shaping our standard of living. Ultimately, my research aims to contribute to the design of effective policies that support economic prosperity, innovation, and job growth. 
 
 
 ## News Blog
 
+
+> **November 2026.** Forthcoming in *Journal of Economics and Statistics (Jahrbücher für Nationalökonomie und Statistik)*: MUP-LBD: The ZEW Mannheim Enterprise Panel for the Analysis of Longitudinal Business Dynamism (with colleagues at ZEW), a new firm-level database on business dynamism in Germany, 2000–2023. The full documentation is available as [ZEW Discussion Paper 26-044](https://www.zew.de/fileadmin/FTP/dp/dp26044.pdf).
+
+> **August 5th, 2026.** Off the academic track: my article [Autopsia di un declino industriale](https://ilgiornaledellazio.it/autopsia-di-un-declino-industriale/) on the history of the former glassworks in Gaeta was published in the Italian newspaper *Il Giornale del Lazio*. The German version, "Autopsie eines industriellen Zerfalls", is on my new [blog](posts/2026-08-02/index.qmd).
+
+> **June 15th, 2026.** Third workshop of our Leibniz project with IWH in Halle (Saale). More on the [project page](project.qmd).
+
 > **June 5th, 2026.** New publication: [Productivity, markups, and reallocation: Evidence from French manufacturing firms](https://link.springer.com/article/10.1007/s00181-026-02929-y), 2026, *Empirical Economics* 70(6), 88.
 
-> **June 3rd, 2026.** Working paper update: [Imperfect competition with heterogenous firms, welfare and misallocation](Documents/De Monte_Koebel_2026.pdf) (with [B. Koebel](https://beta-economics.fr/annuaire/54/koebel_bertrand/))
+> **June 3rd, 2026.** Working paper update: [Imperfect competition with heterogeneous firms, welfare and misallocation](Documents/De Monte_Koebel_2026.pdf) (with [B. Koebel](https://beta-economics.fr/annuaire/54/koebel_bertrand/)), R&R at the *Journal of Economic Behavior & Organization*.
 
-> **October, 14th 2024.** New working paper online: [Cournot competition with heterogenous firms, welfare and misallocation](Documents/WP_Cournot competition with heterogenous firms, welfare and misallocation.pdf) (with [B. Koebel](https://beta-economics.fr/annuaire/54/koebel_bertrand/))
+> **October 8th, 2025.** Second workshop of our Leibniz project at ZEW in Mannheim. More on the [project page](project.qmd).
 
-> **September -- November 2024.** Research stay at [Universitat Pompeu Fabra, Barcelona](https://www.upf.edu/). 
+<details>
+
+<summary>**Older news**</summary>
+
+> **October 14th, 2024.** New working paper online: [Cournot competition with heterogeneous firms, welfare and misallocation](Documents/WP_Cournot competition with heterogenous firms, welfare and misallocation.pdf) (with [B. Koebel](https://beta-economics.fr/annuaire/54/koebel_bertrand/)).
+
+> **September–November 2024.** Research stay at [Universitat Pompeu Fabra, Barcelona](https://www.upf.edu/). 
 
 > **January 24th, 2024.**
 > My paper [Productivity, markups, and reallocation: Evidence from French manufacturing firms from 1994 to 2016](https://www.zew.de/en/publications/productivity-markups-and-reallocation-evidence-from-french-manufacturing-firms-from-1994-to-2016-1) is now available as ZEW Discussion Paper.
 
 > **January 8th, 2024.**
-> Replication notebook available [here](https://enricodemonte.github.io/code.html) for [Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html), *Journal of Econometric Methods*.
+> Replication notebook available [here](code.qmd) for [Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html), *Journal of Econometric Methods*.
 
 > **October 5th, 2023.**
 > Publication of my paper [Nonparametric instrumental regression with two-way fixed effects](https://www.degruyter.com/document/doi/10.1515/jem-2022-0025/html) in the *Journal of Econometric Methods*.
 
 > **September 22nd, 2023.**
-> Winning the Leibniz Collaborative Excellence Fund for the 3-year research project "High Growth Entrepreneurship, Innovation, and the Transformation of the Economy". See more [here](https://enricodemonte.github.io/project.html).
+> Winning the Leibniz Collaborative Excellence Fund for the 3-year research project "High Growth Entrepreneurship, Innovation, and the Transformation of the Economy". See more [here](project.qmd).
+
+</details>
 

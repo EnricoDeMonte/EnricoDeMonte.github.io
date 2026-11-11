@@ -1,5 +1,7 @@
 ---
 title: "Contact"
+open-graph:
+  description: "How to contact Enrico De Monte at ZEW Mannheim."
 ---
 
 **E-Mail and phone:**
@@ -8,7 +10,7 @@ title: "Contact"
 
 **Office:**
 
-> ZEW - Leibniz Centre for European Economic Research
+> ZEW – Leibniz Centre for European Economic Research
 >
 > L7,1
 >

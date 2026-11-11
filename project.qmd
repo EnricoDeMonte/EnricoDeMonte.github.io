@@ -1,5 +1,7 @@
 ---
 title: "Projects"
+open-graph:
+  description: "IWH–ZEW Leibniz project on high-growth entrepreneurship, innovation, and the transformation of the economy."
 ---
 
 # High-growth entrepreneurship, innovation, and the transformation of the economy
@@ -12,7 +14,7 @@ title: "Projects"
 
 > This project will be realized as a cooperation between [IWH - Halle Institute for Economic Research](https://www.iwh-halle.de/en/) and [ZEW - Leibniz Centre for European Economic Research](https://www.zew.de/en/).
 >
-> The project is funded by the [Leibniz Association](https://www.leibniz-gemeinschaft.de/en/), by obtaining the [Leibniz Collaborative Excellence](https://www.leibniz-gemeinschaft.de/en/research/leibniz-competition/leibniz-collaborative-excellence) fund as part of the [Leibniz Competition](https://www.leibniz-gemeinschaft.de/en/research/leibniz-competition), which comprises for both institutes 1 Mio. Euro over three years (2024-2026).
+> The project is funded by the [Leibniz Association](https://www.leibniz-gemeinschaft.de/en/), by obtaining the [Leibniz Collaborative Excellence](https://www.leibniz-gemeinschaft.de/en/research/leibniz-competition/leibniz-collaborative-excellence) fund as part of the [Leibniz Competition](https://www.leibniz-gemeinschaft.de/en/research/leibniz-competition), which comprises for both institutes EUR 1 million over three years (June 2024 – May 2027).
 >
 > **Project lead/speakers**
 >
@@ -48,19 +50,52 @@ title: "Projects"
 
 </details>
 
+## Ongoing work
+
+<details>
+
+<summary>**Data infrastructure**</summary>
+
+> -   *From Legal Units to Firms: A Hybrid Approach to Ownership-Based and Name-Based Firm Identification* (with V. Plümpe, J. Miranda, L. Holste, and J. Wang)
+>
+> -   *Business Finance: A Snapshot from German Balance Sheet Data* (with L. Strecke, J. Miranda, J. Wang, and P. Armada)
+>
+> -   *Patenting Activity in Germany across Inventors and Firms* (with A. Alam, A. Diegmann, J. Miranda, B. Peters, and V. Plümpe)
+>
+> -   *Measuring Mergers and Acquisitions: Evidence from Business Microdata* (with V. Plümpe, S. Murmann, and J. Miranda)
+
+</details>
+
+<details>
+
+<summary>**Research papers**</summary>
+
+> -   *Business Dynamism and High-Growth Firms in Germany* (with H. Hottenrott, V. Plümpe, and J. Miranda)
+>
+> -   *The Market for Inventor Teams* (with P. Armada, V. Plümpe, and J. Miranda)
+
+</details>
+
 ## News Blog
 
->**September, 25th 2024.**
+> **June 15th, 2026.**
+> Third project workshop at IWH in Halle (Saale). With the new data infrastructure largely in place, the focus shifted to research. We presented first results on business dynamism and high-growth firms, on M&A, innovation, and growth, and on patents, and discussed further research ideas. The workshop closed with a plenary discussion of the next steps of the project.
+
+> **October 8th, 2025.**
+> Second project workshop at ZEW in Mannheim. One year after the kick-off, researchers from ZEW, IWH, and IAB met again to review the progress on the new data infrastructure. We presented first results on firm identification, mergers and acquisitions, the linkage of the MUP with IAB data, patents and inventors, and business finance, and discussed the next steps towards the research papers of the project.
+
+>**September 25th, 2024.**
 > Kick-off workshop at ZEW in Mannheim. About 20 researchers from ZEW, IWH, and IAB came together to officially kick off our project. While this was the first meeting in person, a lot of work in terms of building a new data infrastructure has already been done. The workshop allowed us to discuss the progress of the project as well as future objectives. Mark Roberts, as a scientific advisor of the project, shared his valuable views and suggestions with us to improve our work on the data towards the related research. Soon more!  
 >
->![](Images/research_group_ZEW_IWH_IAB.jpg)
+>![](Images/research_group_ZEW_IWH_IAB.jpg){fig-alt="Group photo of the kick-off workshop of the IWH–ZEW Leibniz project at ZEW in Mannheim, September 2024"}
 > Thorsten Doherr, Leon Steines, Lena Füner, Sandra Gottschalk, Martin Friedrich, André Diegmann, Alexander Reifschneider, Lion Holste, Jakob Ehlich,  Eline Schoonjans, Mark Roberts, Bettina Peters, Simona Murmann, Hanna Hottenrott, Afroza Alam, Enrico De Monte, Jiamin Wang, and Javier Miranda. (Not all team members are on the picture). 
 
->**June, 1st 2024.**
+
+>**June 1st, 2024.**
 > Official start of the project. 
 
-> **September, 22nd 2023.**
+> **September 22nd, 2023.**
 > Winning the Leibniz Competition Fund for the 3-year research project "High Growth Entrepreneurship, Innovation, and the Transformation of the Economy.
 
-> **May, 30th 2023.**
+> **May 30th, 2023.**
 > Submission of research proposal to the Leibniz Association for participating in the Leibniz Competition.
